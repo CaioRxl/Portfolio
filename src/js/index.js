@@ -15,3 +15,21 @@ function mostrarMaisProjetos() {
         projetoInativo.classList.add('ativo');
     });
 }
+
+const botaoMostrarCertificados = document.querySelector('.btn-mostrar-certificados');
+const certificadosInativos = document.querySelectorAll('.certificado:not(.ativo)');
+
+botaoMostrarCertificados.addEventListener('click', () => {
+    mostrarMaisCertificados();
+    esconderBotaoCertificados();
+});
+
+function esconderBotaoCertificados() {
+    botaoMostrarCertificados.classList.add("remover");
+}
+
+function mostrarMaisCertificados() {
+    certificadosInativos.forEach(certificadoInativo => {
+        certificadoInativo.classList.add('ativo');
+    });
+}

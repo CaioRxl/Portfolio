@@ -20,6 +20,10 @@
     .projetos .container-projetos{
         padding: 0 30px;
     }
+
+    .certificados .container-certificados{
+        padding: 0 30px;
+    }
 }
 
 @media(max-width: 425px){
@@ -36,6 +40,10 @@
     }
 
     .projetos{
+        padding: 30px;
+    }
+
+    .certificados{
         padding: 30px;
     }
 }

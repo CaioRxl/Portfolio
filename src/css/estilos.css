@@ -7,7 +7,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: linear-gradient(130deg, #000000, #393BBB);
+    background: linear-gradient(130deg, #000000, #1028aeb7);
     background-size: 120% 120%;
 }
 
@@ -31,8 +31,8 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #393BBB;
-    border: 2px solid #393BBB;
+    color: #1028aeb7;
+    border: 2px solid #1028aeb7;
 }
 
 .cabecalho .menu li a {
@@ -43,7 +43,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #393BBB;
+    background-color: #1028aeb7;
     color: #fff;
     border-radius: 50px;
 }
@@ -94,8 +94,8 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #393BBB;
-    border: 1px solid #393BBB;
+    color: #1028aeb7;
+    border: 1px solid #1028aeb7;
     transform: scale(1.1);
 }
 
@@ -110,7 +110,7 @@ body {
 }
 
 .home .foto.sombra-interna {
-    background: linear-gradient(to right, #393BBB, #7C7EF8, #00EEA2);
+    background: linear-gradient(to right, #0026ffb7, #00026fa3, #757474);
     background-size: 180% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -121,7 +121,7 @@ body {
 
 .projetos .titulo {
     text-align: center;
-    padding: 60px 0;
+    padding: 100px 0;
     font-size: 45px;
     font-weight: 500;
     text-transform: uppercase;
@@ -194,12 +194,116 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #393BBB;
+    background-color: #1028aeb7;
     transition: 0.3s;
 }
 
 .projetos .btn-mostrar-projetos.remover {
     display: none;
+}
+
+.certificados {
+    padding: 70px 0 70px;
+}
+
+.certificados .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.certificados .container-certificados {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.certificados .certificado {
+    max-width: 260px;
+    max-height: 500px;
+    position: relative;
+    display: none;
+}
+
+.certificados .certificado.ativo {
+    display: block;
+}
+
+.certificados .certificado img {
+    height: 100%;
+}
+
+.certificados .certificado h3 {
+    background-color: black;
+    width: 100%;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.certificados .certificado .informacoes-certificado {
+    background-color: #040203;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+.certificados .container-certificados .certificado:hover .informacoes-certificado {
+    opacity: 0.7;
+    background-color: #000;
+}
+
+.certificados .btn-mostrar-certificados {
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.certificados .btn-mostrar-certificados:hover {
+    background-color: #1028aeb7;
+    transition: 0.3s;
+}
+
+.certificados .btn-mostrar-certificados.remover {
+    display: none;
+}
+
+.curriculo {
+    text-align: center;
+    padding: 70px 0 70px;;
+}
+
+.curriculo .titulo {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.curriculo img {
+    max-width: 50%;
+    height: auto;
 }
 
 @keyframes gradient-animation {

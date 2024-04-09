@@ -7,7 +7,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: linear-gradient(130deg, #000000, #1028aeb7);
+    background: linear-gradient(150deg, #000000, #1028aeb7);
     background-size: 120% 120%;
 }
 
@@ -60,7 +60,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     padding: 0 15px;
     max-width: 70%;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .home .container-foto .foto {
-    max-width: 290px;
+    max-width: 270px;
     border-radius: 100%;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .projetos .titulo {
     text-align: center;
-    padding: 100px 0;
+    padding: 60px 0;
     font-size: 45px;
     font-weight: 500;
     text-transform: uppercase;
@@ -291,18 +291,21 @@ body {
 
 .curriculo {
     text-align: center;
-    padding: 70px 0 70px;;
+    padding: 70px 0 70px;
 }
 
 .curriculo .titulo {
-    font-size: 36px;
+    font-size: 45px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .curriculo img {
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 }
 

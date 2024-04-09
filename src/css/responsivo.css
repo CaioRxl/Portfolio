@@ -24,6 +24,10 @@
     .certificados .container-certificados{
         padding: 0 30px;
     }
+
+    .curriculo .container-curriculo{
+        padding: 0 30px;
+    }
 }
 
 @media(max-width: 425px){
@@ -43,7 +47,7 @@
         padding: 30px;
     }
 
-    .certificados{
+    .curriculo{
         padding: 30px;
     }
 }

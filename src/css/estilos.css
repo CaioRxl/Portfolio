@@ -7,7 +7,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: linear-gradient(150deg, #000000, #1028aeb7);
+    background: linear-gradient(150deg, #09738a, #78a890);
     background-size: 120% 120%;
 }
 
@@ -31,8 +31,8 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #1028aeb7;
-    border: 2px solid #1028aeb7;
+    color: #e3e5d7;
+    border: 2px solid #e3e5d7;
 }
 
 .cabecalho .menu li a {
@@ -43,7 +43,7 @@ body {
 }
 
 .cabecalho .menu li a:hover {
-    background-color: #1028aeb7;
+    background-color: #09738a;
     color: #fff;
     border-radius: 50px;
 }
@@ -94,25 +94,20 @@ body {
 }
 
 .home .redes-sociais a i:hover {
-    color: #1028aeb7;
-    border: 1px solid #1028aeb7;
+    color: #e3e5d7;
+    border: 1px solid #e3e5d7;
     transform: scale(1.1);
 }
 
 .home .container-foto .foto {
-    max-width: 270px;
+    max-width: 500px;
     border-radius: 100%;
 }
 
 .home .container-foto img {
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     border-radius: 50%;
-}
-
-.home .foto.sombra-interna {
-    background: linear-gradient(to right, #0026ffb7, #00026fa3, #757474);
-    background-size: 180% 180%;
-    animation: gradient-animation 5s ease infinite;
 }
 
 .projetos {
@@ -194,7 +189,7 @@ body {
 }
 
 .projetos .btn-mostrar-projetos:hover {
-    background-color: #1028aeb7;
+    background-color: #09738a;
     transition: 0.3s;
 }
 
@@ -281,7 +276,7 @@ body {
 }
 
 .certificados .btn-mostrar-certificados:hover {
-    background-color: #1028aeb7;
+    background-color: #09738a;
     transition: 0.3s;
 }
 
@@ -307,18 +302,4 @@ body {
 .curriculo img {
     max-width: 60%;
     height: auto;
-}
-
-@keyframes gradient-animation {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 50% 100%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
 }
